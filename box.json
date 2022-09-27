@@ -32,7 +32,7 @@
     },
     "scripts":{},
     "shortDescription":"A sweet package",
-    "slug":"my-package",
+    "slug":"commandbox-awsimds",
     "testbox":{
         "bundles":"",
         "directory":"tests.specs",
