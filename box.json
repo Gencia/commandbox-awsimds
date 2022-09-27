@@ -53,6 +53,6 @@
         "watchDelay":500,
         "watchPaths":"**.cfc"
     },
-    "type":"modules",
-    "version":"1.0.0"
+    "type":"commandbox-modules",
+    "version":"1.0.3"
 }
