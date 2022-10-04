@@ -1,13 +1,13 @@
 {
-    "author":"",
-    "bugs":"",
+    "author":"Gencia Media",
+    "bugs":"https://github.com/Gencia/commandbox-awsimds/issues",
     "changelog":"",
     "contributors":[],
     "dependencies":{},
     "description":"",
     "devDependencies":{},
     "documentation":"",
-    "homepage":"",
+    "homepage":"https://github.com/Gencia/commandbox-awsimds.git",
     "ignore":[
         "**/.*",
         "/test/",
@@ -25,13 +25,13 @@
     "location":"ForgeboxStorage",
     "name":"AWS IMDS Expander",
     "private":false,
-    "projectURL":"",
+    "projectURL":"https://github.com/Gencia/commandbox-awsimds.git",
     "repository":{
-        "type":"",
-        "URL":""
+        "type":"git",
+        "URL":"https://github.com/Gencia/commandbox-awsimds.git"
     },
     "scripts":{},
-    "shortDescription":"CommandBox IMDS Expander Module",
+    "shortDescription":"CommandBox AWS IMDS Expander Module",
     "slug":"commandbox-awsimds",
     "testbox":{
         "bundles":"",
@@ -54,5 +54,5 @@
         "watchPaths":"**.cfc"
     },
     "type":"commandbox-modules",
-    "version":"1.0.3"
+    "version":"1.0.4"
 }
