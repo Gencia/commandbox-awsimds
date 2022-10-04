@@ -18,6 +18,8 @@ component {
                     local.serviceResponseText = local.serviceResponse.Filecontent;
 
                     variables.cache[settingName] = local.serviceResponseText;
+
+                    log.info('IMDS meta data requested successfully for #settingName#: #local.serviceResponseText#');
                 } 
                 catch (exName) {
                     log.warn('Unable to retrieve #settingName# from AWS IMDS - Are you running within an AWS Instance???');
