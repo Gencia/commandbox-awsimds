@@ -4,7 +4,7 @@ This module is intended to give access to AWS Instance Meta Data Service data wi
 
 ## Usage
 
-Within and of the places where you can use system setting expansion (e.g server.json) reference the IMDS variable you wish to retrieve by prefixing the variable name with `awsimds` - e.g. to access the instanceId of the hose AWS EC2 instance, use `{awsimds.instanceId}`
+Within any of the places where you can use system setting expansion (e.g server.json) reference the IMDS variable you wish to retrieve by prefixing the variable name with `awsimds` - e.g. to access the instanceId of the hose AWS EC2 instance, use `{awsimds.instanceId}`
 
 Please note, value is cached on first lookup - so this is not currently suitable for referencing any IMDS values which may change through the application lifecycle.
 
